@@ -6,7 +6,7 @@
 
 // 1. Importando os módulos de cada pasta
 const executarEstruturada = require('./programacao_estruturada/combateBasico');
-const executarOO = require('./orientacao_objetos/Personagem');
+const executarOO = require('./orientacao_objetos/Personagens');
 const executarEncapsulamento = require('./visibilidade_encapsulamento/PersonagemSeguro');
 const executarHeranca = require('./encapsulamento_condicionais_heranca/ClassesEspecializadas');
 
