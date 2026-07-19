@@ -32,3 +32,12 @@ class PersonagemSeguro {
   const cavaleiro = new PersonagemSeguro("Lancelot", 150, 25, 15);
   cavaleiro.receberDano(30);
   // cavaleiro.#hp = 9999; // ERRO: O encapsulamento impede essa trapaça.
+
+
+  function executar() {
+    const cavaleiro = new PersonagemSeguro("Lancelot", 150, 25, 15);
+    cavaleiro.receberDano(30);
+  }
+  
+  // Exporta a função para o main.js
+  module.exports = executar;

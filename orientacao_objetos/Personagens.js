@@ -30,3 +30,15 @@ class Personagem {
   const heroi = new Personagem("Arthur", 100, 20, 10);
   const inimigo = new Personagem("Goblin", 40, 15, 2);
   heroi.atacar(inimigo);
+
+
+  function executar() {
+    const heroi = new Personagem("Arthur", 100, 20, 10);
+    const inimigo = new Personagem("Goblin", 40, 15, 2);
+    heroi.atacar(inimigo);
+  }
+  
+  // Exporta a função para o main.js
+  module.exports = executar;
+
+  

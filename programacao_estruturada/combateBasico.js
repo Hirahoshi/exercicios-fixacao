@@ -23,3 +23,12 @@ function calcularDanoReal(ataque, defesa) {
   // Teste
   let vidaMonstro = 50;
   vidaMonstro = simularTurno("Guerreiro", 15, "Orc", vidaMonstro, 5);
+
+
+  function executar() {
+    let vidaMonstro = 50;
+    vidaMonstro = simularTurno("Guerreiro", 15, "Orc", vidaMonstro, 5);
+  }
+  
+  // Exporta a função para o main.js
+  module.exports = executar;

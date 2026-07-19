@@ -69,3 +69,17 @@ class Entidade {
   heroi.atacar(feiticeiro);
   feiticeiro.atacar(heroi);
   feiticeiro.atacar(heroi); // O segundo ataque falhará por falta de mana (condicional)
+
+
+
+  function executar() {
+    const heroi = new Guerreiro("Aragorn", 120, 5, 25);
+    const feiticeiro = new Mago("Saruman", 80, 2, 40, 20);
+  
+    heroi.atacar(feiticeiro);
+    feiticeiro.atacar(heroi);
+    feiticeiro.atacar(heroi);
+  }
+  
+  // Exporta a função para o main.js
+  module.exports = executar;
